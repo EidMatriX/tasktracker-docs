@@ -1,0 +1,25 @@
+site_name: Документация проекта "TaskTracker"
+site_description: Руководство и справочник по системе управления задачами TaskTracker
+
+theme:
+  name: material
+  language: ru
+  palette:
+    primary: indigo
+    accent: indigo
+
+nav:
+  - Введение: index.md
+  - Руководство пользователя:
+      - user-guide/quick-start.md
+      - user-guide/tasks.md
+  - Справочник API:
+      - api/overview.md
+      - api/endpoints/tasks.md
+  - Для разработчиков:
+      - dev/setup.md
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - tables
